@@ -1,0 +1,392 @@
+*{
+    margin: 0px;
+    padding: 0 px;
+    box-sizing: border-box;
+    background-color:#f6f8fa;
+    // overflow-x: hidden;
+    // width: auto;
+}
+body{
+    background-color: #f6f8fa;
+}
+$bg-color:#FFFFFF;
+
+//section 1
+.section1{
+    height: 548px;
+    display: flex;
+    justify-content: space-around;
+    img{
+        width: 400px;
+        height: 400px;
+    }
+    .lorem{
+        width: 500px;
+        height:350px;
+        
+        margin-top: 100px;
+        h2{
+            text-align: left;
+            line-height: 45px;
+            margin-bottom: 15px;
+            font-weight: bolder;
+            color:black;
+            
+        }
+        p{
+            text-align: left;
+        }
+        button{
+            margin-top: 20px;
+            margin-left: 20px;
+            padding: 10px;
+            width: 35%;
+            box-shadow: 0px 16px 48px #00000029;
+        }
+    }
+
+}
+
+
+.logo{
+    background-color: $bg-color;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.nav{
+    background-color: $bg-color;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    left: 249px;
+}
+li{
+    background-color: $bg-color;
+    margin:10px 20px;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  .header{
+    display: flex;
+    justify-content: end;
+  }
+
+//section2
+  .section2{
+    height: 548px;
+    margin-top: 8px;
+    height: 548px;
+    .card{
+        background-color: $bg-color;
+        width: 308px;
+        height: fit-content;
+        border-radius: 18px;
+        .card-body{
+            background-color: $bg-color;
+        .card-title{background-color: $bg-color}
+        .card-text{background-color: $bg-color}
+        }
+      }
+}
+
+//section3
+.section3{
+    margin-top: 8px;
+    height: 648px;}
+    .section3 .card{
+        background-color: #f6f8fa;
+        width: 308px;
+        height: fit-content;
+        margin:0 20px;
+        border: none;
+        .card-body{
+            margin-top: 5px;
+            border-radius: 18px;}
+      }
+
+      .section3 img{
+        background-color: #f6f8fa;
+        height: 172px;
+        width: 215px;
+
+      }
+
+ //section4
+
+.section4{
+    height: 1100px;
+    margin-top: 20px;
+    .p1{
+        
+        width: fit-content;
+        margin-left: 20px;
+       
+        font: normal normal bold 18px/32px Nunito Sans;
+    }
+    .button{
+        margin-top: 20px;
+        // margin-left: 20px;
+        padding: 8px;
+        // width: 12%;
+        box-shadow: 0px 16px 48px #00000029;
+    }
+    img{
+        width: 40px;
+        height: 40px;
+        
+    }
+   
+}
+
+.sec4div{
+    width: 490px;
+    margin-left: 150px;
+    margin-top: 50px;
+
+}
+// .p2{
+//     width: 40%;
+// }
+.sec4div2{
+     width: 360px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: 65px; 
+    
+}
+
+//section5 
+
+.section5{
+    height: 600px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .div1{
+        position: relative;
+        width: 1090px;
+        height: 363px;
+        box-shadow: 0px 16px 48px #00000029;
+        border-radius: 42px;
+        
+        
+    .div3{
+        position: absolute;
+        width: 55px;
+        height: 50px;
+        // margin-left: auto;
+        left: 97%;
+        /* UI Properties */
+        margin-top: 25%;
+        border-radius: 50%;
+        box-shadow: 0px 7px 17px #00000029;
+    }
+}
+.div4{
+    display: flex;
+    justify-content: center;
+    margin-top: 155px;
+margin-left: 9rem;
+position: absolute;
+}
+}    
+.arrowdiv{
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 10px;
+    i{
+        width: 6px;
+        height: 9px;
+        margin: inherit;
+
+    }
+}
+
+   .section5 .div2 {
+        margin-top: 40px;
+        position: absolute;
+        img{
+        margin-left: 102px-59px;
+        width: 60px;
+        height: 57px;
+    }
+    p{  margin: 12px;
+        width: 275px;
+        height: 34px;
+        font: normal normal 900 20px/34px Nunito Sans;
+    }
+}
+ 
+
+.right {
+  
+  
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+
+.carddiv{
+    width: 255px;
+height: 263px;
+box-shadow: 0px 16px 48px #00000029;
+border-radius: 30px;
+margin-left: 15px;}
+    .cardheader{
+        margin-left: 15px;
+        margin-top: 20px;
+        display: flex;
+        img{
+            width: 32px;
+            height: 33px;
+        }
+        div p{
+            margin-left: 5px;
+            width: 118px;
+            height: 4px;
+
+            font: normal normal 600 10px/18px Nunito Sans;
+        }
+        .star{
+            margin-left: auto;
+            margin-right: 20px;
+            img{
+                width: 15px;
+        height: 14px;
+            }
+        }
+        
+    }
+    .carddiv .cardp{  margin-top: 20px;
+        margin-left: 15px;
+        padding:10px;
+        padding-right: 15px;
+        width: 237px;
+        height: 126px;
+        font: normal normal normal 13px/18px Nunito Sans;
+        text-align: left;
+    }
+ 
+
+.section6{
+    height: 510px;
+    .sec6div{
+        margin-top: 100px;
+        display: flex;
+        justify-content:space-around ;
+        align-items: center;
+    }
+    img{
+        width: fit-content;
+        height: 78px;
+    }
+    .content p{
+        text-align: center;
+        font: normal normal bold 18px/24px Nunito Sans;
+    }
+}
+
+.section7{
+    background-color:black;
+    height: 400px ;
+    position:relative;
+
+    div{
+        width: 150px;
+        margin: auto;
+    }
+    
+    p{text-align: center;
+        background-color: black;
+        color: #f6f8fa;
+        width: 140px;
+        height: 24px;
+        margin-top: 350px;
+        position: absolute;
+        
+        
+
+}
+}
+$breakpoint-tablet: 700px;
+@media (max-width: $breakpoint-tablet) {
+  .section1{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    h2{
+        width:initial;
+    }
+}
+}
+
+@media (max-width:900px) {
+    .section5{
+        .div4{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            // margin-left: 30px;
+            .carddiv{
+                margin-top: 10px;
+
+            }
+        }
+    }
+    .section6{
+        // position: absolute;
+        margin-top: 610px;
+        
+            .sec6div{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+            
+            }
+       
+    }
+    *{
+        background-color: #f6f8fa;
+    }
+    body{
+        background-color: #f6f8fa;
+    }
+   
+}
+
+@media (max-width: 1050px){
+.section3{
+    height: fit-content;
+}
+.section1{
+    height: fit-content;
+}
+.section2{
+    height: fit-content;
+}
+.section4{
+    height: fit-content;
+}
+.section5{
+    height: fit-content;
+}
+
+
+}
